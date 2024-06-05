@@ -1,3 +1,3 @@
 function pageTwo(){
-    window.location = "pages/pagetwo.html"
+    alert('ligma balls');
 }
