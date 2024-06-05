@@ -1,3 +1,3 @@
 function pageTwo(){
-    window.Location = "pagetwo.html"
+    window.location = "pages/pagetwo.html"
 }
