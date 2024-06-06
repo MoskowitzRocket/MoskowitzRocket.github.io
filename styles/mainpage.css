@@ -1,13 +1,3 @@
-.title{
-    color:red;
-    max-width: fit-content;
-    margin-left:auto;
-    margin-right:auto;
-    font-size: 100px;
-
-}
-
-
 /*  for the rainbow text                 */
 
 #shadowBox {
@@ -45,42 +35,47 @@
 }
 
 .first-n-last{
-    font-size: 50px;
+    font-size: 70px;
     vertical-align: middle;
 }
 .second-secondlast{
-    font-size: 40px;
+    font-size: 60px;
     vertical-align: middle;
 }
 .third-thirdlast{
-    font-size:30px;
+    font-size:50px;
     vertical-align: middle;
 }
 .fourth-fourthlast{
-    font-size: 20px;
+    font-size: 40px;
     vertical-align: middle;
 }
 .remainder-letters{
-    font-size: 15px;
+    font-size: 30px;
     vertical-align: middle;
 }
 .name{
     font-family: Danfo;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    color: red;
 }
-.to-google:link.com{
-    color:black;
+a:link{
+    color:red;
     text-decoration: none;
     
 }
-.to-google:active {
-    color: black;
+a:active {
+    color: red;
     text-decoration: none;
 }
-.to-google:visited {
-    color: black;
+a:visited {
+    color: red;
     text-decoration: none;
 }
-.to-google:hover {
-    color:black;
+a:hover {
+    color:red;
     text-decoration: none;
 }
