@@ -31,7 +31,7 @@
     background-clip: text;
     color: transparent;
     animation: rainbow_animation 15s ease-in-out infinite;
-    background-size: 400% 100%;
+    background-size: 400% 100%;    
 }
 
 @keyframes rainbow_animation {
@@ -42,4 +42,45 @@
     50% {
         background-position: 100% 0;
     }
+}
+
+.first-n-last{
+    font-size: 50px;
+    vertical-align: middle;
+}
+.second-secondlast{
+    font-size: 40px;
+    vertical-align: middle;
+}
+.third-thirdlast{
+    font-size:30px;
+    vertical-align: middle;
+}
+.fourth-fourthlast{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.remainder-letters{
+    font-size: 15px;
+    vertical-align: middle;
+}
+.name{
+    font-family: Danfo;
+}
+.to-google:link.com{
+    color:black;
+    text-decoration: none;
+    
+}
+.to-google:active {
+    color: black;
+    text-decoration: none;
+}
+.to-google:visited {
+    color: black;
+    text-decoration: none;
+}
+.to-google:hover {
+    color:black;
+    text-decoration: none;
 }
