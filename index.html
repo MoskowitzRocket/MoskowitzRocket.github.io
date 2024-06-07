@@ -49,10 +49,42 @@
 
         </div>
     
+        <div class="page-select">
+            <form action="pages/pagetwo.html">
+                <input type="submit" value="Go to Page Two" />
+            </form>
+            <form action="pages/pagethree.html">
+                <input type="submit" value="Go to Page Three" />
+            </form>
+            <form action="pages/pagefour.html">
+                <input type="submit" value="Go to Page Four" />
+            </form>
+            <form action="pages/pagefive.html">
+                <input type="submit" value="Go to Page Five" />
+            </form>
 
-        <form action="pages/pagetwo.html">
-            <input type="submit" value="Go to Page Two" />
-        </form>
+
+        </div>
+
+        <select class="page-select-dropdown" name="page" id="page">
+            <option value="2">Page 2</option>
+            <option value="3">Page 3</option>
+            <option value="4">Page 4</option>
+            <option value="5">Page 5</option>  
+        </select>
+        <button class="activate">Go</button>
+
+
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 4</a>
+            </div>
+          </div> 
 
 
 
