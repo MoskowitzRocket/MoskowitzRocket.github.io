@@ -15,6 +15,12 @@
         <button onclick="
         playGame('scissors');
         ">Scissors</button>
+        <button onclick="
+          score.W = 0;
+          score.L = 0;
+          score.D = 0;
+          reset();
+        ">RESET SCORE</button>
 
         <form action="../index.html">
             <input type="submit" value="Go to home page" />
@@ -24,6 +30,18 @@
 
 
         <script>
+
+            const score = {
+              W: 0,
+              L: 0,
+              D: 0
+            }
+
+
+            function reset () {
+              alert(`Score Reset.\n\n\nWins: ${score.W} Losses: ${score.L} Ties: ${score.D}`);
+              console.log('score reset');
+            }
       
             function playGame(playerMove) {
               const computerMove = pickCPUMove();
@@ -57,7 +75,15 @@
                 }
                 
               }
-              alert(`You Picked ${playerMove}. Computer picked ${computerMove}. ${result}`);
+              if (result === 'You win.') {
+                score.W += 1;
+              } else if (result === 'You lose.') {
+                score.L +=1;
+              } else if (result === 'Tie.') {
+                score.D +=1;
+              }
+              
+              alert(`You Picked ${playerMove}. Computer picked ${computerMove}. ${result}\n\n\nScore is Wins: ${score.W} Losses: ${score.L} Ties: ${score.D}`);
             }
             function pickCPUMove () {
               const randNum = Math.random();
