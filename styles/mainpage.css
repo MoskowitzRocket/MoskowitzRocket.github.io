@@ -130,3 +130,17 @@ a:hover {
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;} 
+
+
+  .main-page{
+    display: block;
+    margin: auto;
+  }
+  .birb{
+    display: inline-block;
+    width: 25%;
+    margin: auto;
+}
+.p1{
+    display: inline-block;
+}
